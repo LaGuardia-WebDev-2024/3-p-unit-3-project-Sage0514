@@ -13,34 +13,67 @@ Select ONE Additional Feature to Add
 -->
 
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Project: Recipe book</title>
-    <meta charset="utf-8" />
-    <style></style>
-  </head>
+<head>
+  <title>Project: Recipe book</title>
+  <meta charset="utf-8" />
+  <style>
+    #book {
+      color: rgb(218, 161, 207);
+    }
+    #aspirational {
+      color: rgb(218, 161, 207);
+    }
+    #recipe {
+      color: rgb(108, 4, 88);
+    }
+    body {
+      background-color: rgb(236, 250, 170);
+    }
+    #gnocchi {
+      color: rgb(14, 98, 81);
+    }
+    img {
+      border-radius: 30px;
+    }
+    #lasagna {
+      color: rgb(110, 44, 0);
+    }
+    img {
+      border-radius: 30px;
+    }
+    #ricotta {
+      color: rgb(125, 102, 8);
+    }
+    img {
+      border-radius: 30px;
+    }
+    #meatballs {
+      color: rgb(86, 65, 4);
+    }
+    img {
+      border-radius: 30px;
+    }
+    #carbonara {
+      color: rgb(100, 30, 22);
+    }
+    img {
+      border-radius: 30px;
+    }
+    table,
+    th,
+    td {
+      border: 1px solid;
+    }
+  </style>
+</head>
 
-  <body>
+<body>
+  <html>
     <h1 id="recipe">
       Sage's <strong id="aspirational">Aspirational </strong> Recipe
       <strong id="book"> Book</strong>
-      <hr size="20"color="#2D0616" />
+      <hr size="20" color="#2D0616" />
     </h1>
-    <style>
-      
-      #book {
-        color: rgb(218, 161, 207);
-      }
-      #aspirational {
-        color: rgb(218, 161, 207);
-      }
-      #recipe {
-        color: rgb(108, 4, 88);
-      }
-      body {
-        background-color: rgb(236, 250, 170);
-      }
-    </style>
     <h2>Contents:</h2>
 
     <ol>
@@ -72,14 +105,7 @@ Select ONE Additional Feature to Add
     </ol>
 
     <h2 id="gnocchi">Pesto Gnocchi</h2>
-    <style>
-      #gnocchi {
-        color: rgb(14, 98, 81);
-      }
-      img {
-        border-radius: 30px;
-      }
-    </style>
+
     <img
       src="https://images.101cookbooks.com/best-gnocchi-recipe-1.jpg?w=620&auto=format"
       width="250"
@@ -196,14 +222,7 @@ Select ONE Additional Feature to Add
       </li>
     </ol>
     <h2 id="lasagna">Lasagna</h2>
-    <style>
-      #lasagna {
-        color: rgb(110, 44, 0);
-      }
-      img {
-        border-radius: 30px;
-      }
-    </style>
+
     <img
       src="https://www.spendwithpennies.com/wp-content/uploads/2019/01/Lasagna-SpendWithPennies-23.jpg"
       width="250"
@@ -226,15 +245,15 @@ Select ONE Additional Feature to Add
               <li>4 cups shredded mozzarella cheese</li>
               <li>scant 1 cup of unbleached all-purpose flour</li>
               <li>½ cup shredded Parmesan cheese</li>
-              <li>¾ teaspoon salt </li>
+              <li>¾ teaspoon salt</li>
               <li>½ pound lean ground beef</li>
               <li>½ pound Italian sausage</li>
               <li>1 yellow onion diced</li>
               <li>2 cloves garlic minced</li>
-              <li>36 ounces pasta sauce </li>
+              <li>36 ounces pasta sauce</li>
               <li>2 tablespoons tomato pastel</li>
               <li>1 teaspoon Italian seasoning</li>
-              <li> 2 cups ricotta cheese or cottage cheese</li>
+              <li>2 cups ricotta cheese or cottage cheese</li>
               <li>¼ cup chopped fresh parsley</li>
               <li>1 large egg beaten</li>
             </ul>
@@ -281,14 +300,7 @@ Select ONE Additional Feature to Add
     </ol>
 
     <h2 id="ricotta">Ricotta cavatelli</h2>
-    <style>
-      #ricotta {
-        color: rgb(125, 102, 8);
-      }
-      img {
-        border-radius: 30px;
-      }
-    </style>
+
     <img
       src="https://thecleaneatingcouple.com/wp-content/uploads/2020/03/ricotta-cavatelli-1-683x1024.jpg"
       width="250"
@@ -371,14 +383,7 @@ Select ONE Additional Feature to Add
       </li>
     </ol>
     <h2 id="meatballs">Meatballs</h2>
-    <style>
-      #meatballs {
-        color: rgb(86, 65, 4);
-      }
-      img {
-        border-radius: 30px;
-      }
-    </style>
+
     <img
       src="https://www.budgetbytes.com/wp-content/uploads/2022/01/Easy-Homemade-Meatballs-V3-768x1024.jpg"
       width="250"
@@ -445,14 +450,7 @@ Select ONE Additional Feature to Add
       </li>
     </ol>
     <h2 id="carbonara">Shrimp Carbonara</h2>
-    <style>
-      #carbonara {
-        color: rgb(100, 30, 22);
-      }
-      img {
-        border-radius: 30px;
-      }
-    </style>
+
     <img
       src="https://momsdinner.net/wp-content/uploads/2021/02/Shrimp-Carbonara-1.jpg"
       width="250"
@@ -530,81 +528,66 @@ Select ONE Additional Feature to Add
         Serve immediately topped with parmesan cheese and cracked black pepper.
       </li>
     </ol>
-  <style>
-   table, th, td {
-            border: 1px solid;
-          }
-  </style>
-   <table>
-            <thead>
-                <tr>
-                  <th>Dish</th>
-                    <th>Difficulty</th>
-                    <th>Popularity</th>
-                    <th>Rating</th>
-                </tr>
-            </thead>
-            <tbody>
-              <tr>  
-              <td>
-               Pesto Gnocchi
-              </td>
-                <td> 6/10</td>
-                <td> 7/10</td>
-                <td>6.5/10</td>
-              </tr>
-                
-            </tbody>
-           <tbody>
-              <tr>  
-              <td>
-                Lasagna
-              </td>
-                <td>3/10 </td>
-                <td> 8/10</td>
-                <td> 9/10</td>
-              </tr>
-                
-            </tbody>
-           <tbody>
-              <tr>  
-              <td>
-               Ricotta Cavatelli
-              </td>
-                <td> 4/10</td>
-                <td> 8/10</td>
-                <td>8.5/10</td>
-              </tr>
-               </tbody>
-           <tbody>
-              <tr>  
-              <td>
-               Meatballs
-              </td>
-                <td> 1/10</td>
-                <td> 9/10</td>
-                <td>9.5/10</td>
-              </tr>
-                
-            </tbody>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Dish</th>
+          <th>Difficulty</th>
+          <th>Popularity</th>
+          <th>Rating</th>
+        </tr>
+      </thead>
       <tbody>
-              <tr>  
-              <td>
-              Shrimp Carbonara
-              </td>
-                <td> 3/10</td>
-                <td> 7/10</td>
-                <td>8/10</td>
-              </tr>
-  
-            </tbody>
-        </table>
+        <tr>
+          <td>Pesto Gnocchi</td>
+          <td>6/10</td>
+          <td>7/10</td>
+          <td>6.5/10</td>
+        </tr>
+
+        <tr>
+          <td>Lasagna</td>
+          <td>3/10</td>
+          <td>8/10</td>
+          <td>9/10</td>
+        </tr>
+
+        <tr>
+          <td>Ricotta Cavatelli</td>
+          <td>4/10</td>
+          <td>8/10</td>
+          <td>8.5/10</td>
+        </tr>
+
+        <tr>
+          <td>Meatballs</td>
+          <td>1/10</td>
+          <td>9/10</td>
+          <td>9.5/10</td>
+        </tr>
+
+        <tr>
+          <td>Shrimp Carbonara</td>
+          <td>3/10</td>
+          <td>7/10</td>
+          <td>8/10</td>
+        </tr>
+      </tbody>
+    </table>
 
     <p>
-      *Disclaimer: These recipes aren't mine, just recipes I aspire to learn in the future.*
-      <ul>
-        <em>Source: <a href="https://docs.google.com/document/d/1ISsGvwTngAlaQh5EWMAFhqkaNWmKmIvTnr_9PlAIzDA/edit?tab=t.0">Some recipe websites</a></em>
-    </ul>
+      *Disclaimer: These recipes aren't mine, just recipes I aspire to learn in
+      the future.*
     </p>
-  </body>
-</html>
+    <ul>
+      <em
+        >Source:
+        <a
+          href="https://docs.google.com/document/d/1ISsGvwTngAlaQh5EWMAFhqkaNWmKmIvTnr_9PlAIzDA/edit?tab=t.0"
+          >Some recipe websites</a
+        ></em
+      >
+    </ul>
+  </html>
+</body>
